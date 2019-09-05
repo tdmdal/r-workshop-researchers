@@ -1,0 +1,15 @@
+name: "TDMDAL Workshop"
+output_dir: "docs"
+include: ["*.pdf"]
+exclude: ["*.pptx"]
+navbar:
+  title: "Intro to R for Researchers"
+  right:
+    - text: "Home"
+      href: index.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+
+  
