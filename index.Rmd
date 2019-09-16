@@ -3,6 +3,12 @@ title: "Intro to R for Researchers"
 ---
 
 * [Workshop Slides]()
+* Code
+    * A simple regression
+    * Data and programming structure
+    * Data Manipulation
+    * Modelling
+    * Report and graph
 * Free Resources
     * R Programming
         * [Hands-on Programming with R](https://rstudio-education.github.io/hopr/) (for absolute beginners, i.e., if you have never programmed before)

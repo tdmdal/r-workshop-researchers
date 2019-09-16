@@ -1,7 +1,7 @@
 name: "TDMDAL Workshop"
 output_dir: "docs"
 include: ["*.pdf"]
-exclude: ["*.pptx"]
+exclude: ["*.pptx", "*.docx"]
 navbar:
   title: "Intro to R for Researchers"
   right:
