@@ -4,11 +4,11 @@ title: "Intro to R for Researchers"
 
 * [Workshop Slides]()
 * Code
-    * A simple regression
-    * Data and programming structure
+    * A simple regression (R script: [r1_simple_regression.R](r1_simple_regression.R); R notebook: [![](colab-badge.svg)](https://colab.research.google.com/github/tdmdal/r-workshop-researchers/blob/master/docs/rn1_A_Simple_Regression.ipynb))
+    * Data and Programming Structure
     * Data Manipulation
     * Modelling
-    * Report and graph
+    * Report and Graph
 * Free Resources
     * R Programming
         * [Hands-on Programming with R](https://rstudio-education.github.io/hopr/) (for absolute beginners, i.e., if you have never programmed before)
