@@ -1,0 +1,72 @@
+---
+title: "Data and Programming Structures"
+author: "Jay"
+date: "17/09/2019"
+output:
+  ioslides_presentation: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Expression
+
+Write $2 + \sqrt{4} + ln(e^2) + 2^2$ as an R expression and get its result.
+
+```{r}
+# an expression
+2 + sqrt(4) + log(exp(2)) + 2^2
+```
+
+## Assignment
+
+Assign an expression to a variable using the assignment operator, `<-`.
+
+```{r}
+# assignment
+x <- (pi == 3.14)
+print(x)
+```
+
+## Data Structure
+
+| Dimension | Homogeneous   | Heterogeneous |
+|:---------:|:-------------:|:-------------:|
+| 1D        | Atomic vector | List          |
+| 2D        | Matrix        | Dataframe     |
+| nD        | Array         | -             |
+
+
+## Atomic Vector
+
+```{r}
+# create R vectors
+vec_character <- c("Hello,", "World!")
+vec_integer <- c(1L, 2L, 3L)
+vec_double <- c(1.1, 2.2, 3.3, -4.4)
+vec_logical <- c(TRUE, TRUE, FALSE)
+```
+
+## Retrieve a Single Element
+
+```{r}
+# retrieve the first element of vec_double
+print(vec_double[1])
+```
+
+## Retrieve Multiple Elements - 1
+
+```{r}
+# select multiple elements
+print(vec_double[c(1, 3)])
+print(vec_double[1:2])
+print(vec_double[c(-1, -2)])
+```
+
+## Retrieve Multiple Elements - 2
+
+```{r}
+# select multiple elements
+print(vec_double[c(TRUE, FALSE, TRUE, FALSE)])
+print(vec_double[vec_double < 0])
