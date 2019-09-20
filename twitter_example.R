@@ -9,12 +9,15 @@ rt <- search_tweets(
   "#rstats", n = 1000, include_rts = FALSE
 )
 
+# extra stop words
+extra_sw <- "t.co|https|rstats"
+
 # top words
 rt %>%
   select(text) %>%
   unnest_tokens(word, text) %>%
   anti_join(stop_words) %>%
-  filter(!grepl('t.co|https|rstats', word)) %>%
+  filter(!grepl(extra_sw, word)) %>%
   count(word, sort = TRUE) %>%
   top_n(10) %>%
   mutate(word = reorder(word, n)) %>%
@@ -28,7 +31,7 @@ rt %>%
   select(text) %>%
   unnest_tokens(word, text) %>%
   anti_join(stop_words) %>%
-  filter(!grepl('t.co|https|rstats', word)) %>%
+  filter(!grepl(extra_sw, word)) %>%
   count(word, sort = TRUE, name = "freq") %>%
   top_n(50) %>%
   wordcloud2()
