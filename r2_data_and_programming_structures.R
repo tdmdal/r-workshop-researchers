@@ -226,21 +226,15 @@ print(ss(3))
 # your code here
 
 f_sum <- function(f, n) {
-  if (n < 1 || !is.integer(n)) {
-    stop("argument input error!")
-  }
   
-  y <- 0
-  t <- 1L
-  
-  while (t <= n) {
-    y = y + f(t)
-    t = t + 1L
-  }
+  # insert your code below
   
   return(y)
 }
 
+# if your code works as intended, the following should run
+
+# define t squared as f1
 f1 <- function(t) {
   t^2
 }
@@ -248,7 +242,6 @@ f1 <- function(t) {
 print(f_sum(f1, 3L))
 
 # let's calculate pi
-
 # calculate pi using the pi formula
 f_pi <- function(x) {
   4 * (-1) ^ (x + 1) / (2 * x - 1)

@@ -2,13 +2,24 @@
 title: "Intro to R for Researchers"
 ---
 
-* [Workshop Slides]()
+* [Slides]()
 * Code
-    * A simple regression (R script: [r1_simple_regression.R](r1_simple_regression.R); R notebook: [![](colab-badge.svg)](https://colab.research.google.com/github/tdmdal/r-workshop-researchers/blob/master/docs/rn1_A_Simple_Regression.ipynb))
+    * Motivation
+        * A simple regression example (R script: [r1_simple_regression.R](r1_simple_regression.R); R notebook: [![](colab-badge.svg)](https://colab.research.google.com/github/tdmdal/r-workshop-researchers/blob/master/docs/rn1_A_Simple_Regression.ipynb))
+        * A twitter example (R script: [twitter_example.R](twitter_example.R))
     * Data and Programming Structures (R script: [r2_data_and_programming_structures.R](r2_data_and_programming_structures.R); R notebook: [![](colab-badge.svg)](https://colab.research.google.com/github/tdmdal/r-workshop-researchers/blob/master/docs/rn2_Data_and_Programming_Structures.ipynb))
-    * Data Manipulation
-    * Modelling
-    * Report and Graph
+    * Extending the simple regression example (R script: [r3_data_manipulation_modelling_report.R](r3_data_manipulation_modelling_report.R))
+        * Data Manipulation
+        * Modelling
+        * Report and Graph
+* Materials from an old workshop (containing more details)
+    * Data structures
+        * [Vectors](extra_material/part1_1_vector.html)
+        * [Derived data structures](extra_material/part1_2_derived_ds.html)
+    * [Programming structures](extra_material/part1_3_function.html)
+    * [Data manipulation](extra_material/part2_data_manipulation.html)
+    * [Data visualization](extra_material/part3_visualization.html)
+    
 * Free Resources
     * R Programming
         * [Hands-on Programming with R](https://rstudio-education.github.io/hopr/) (for absolute beginners, i.e., if you have never programmed before)
@@ -29,9 +40,10 @@ title: "Intro to R for Researchers"
         * [An Introduction to Statistical Learning / with Applications in R](http://faculty.marshall.usc.edu/gareth-james/ISL/index.html) (book and code)
         * [R interface to Keras](https://tensorflow.rstudio.com/keras/) (deep learning in R)
         
-    * Plan to teach Econometrics using R?
+    * Plan to teach Econometrics & Statistics using R?
         * [A Short R Tutorial](https://data.princeton.edu/R) by Germán Rodríguez (a good tutorial to get students started with R)
         * [Introductory Econometrics Examples](https://justinmshea.github.io/wooldridge/articles/Introductory-Econometrics-Examples.html) (data and examples from Wooldridge)
+        * [STAT545](https://stat545.com/) by [Jenny Bryan](https://jennybryan.org/) : Data wrangling, exploration, and analysis with R
 
 
 Back to [TDMDAL Computing Page](https://tdmdal.github.io/)
