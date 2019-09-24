@@ -2,11 +2,11 @@
 title: "Intro to R for Researchers"
 ---
 
-* [Slides]()
+* [Slides](r_intro_researchers.pdf)
 * Code
     * Motivation
         * A simple regression example (R script: [r1_simple_regression.R](r1_simple_regression.R); R notebook: [![](colab-badge.svg)](https://colab.research.google.com/github/tdmdal/r-workshop-researchers/blob/master/docs/rn1_A_Simple_Regression.ipynb))
-        * A twitter example (R script: [twitter_example.R](twitter_example.R))
+        * A twitter example (R script: [twitter_example.R](twitter_example.R); Word Cloud for #rstat: [twitter_word_cloud.png](twitter_word_cloud.png))
     * Data and Programming Structures (R script: [r2_data_and_programming_structures.R](r2_data_and_programming_structures.R); R notebook: [![](colab-badge.svg)](https://colab.research.google.com/github/tdmdal/r-workshop-researchers/blob/master/docs/rn2_Data_and_Programming_Structures.ipynb))
     * Extending the simple regression example (R script: [r3_data_manipulation_modelling_report.R](r3_data_manipulation_modelling_report.R))
         * Data Manipulation
