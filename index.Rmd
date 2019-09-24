@@ -12,6 +12,9 @@ title: "Intro to R for Researchers"
         * Data Manipulation
         * Modelling
         * Report and Graph
+        
+---       
+        
 * Materials from an old workshop (containing more details)
     * Data structures
         * [Vectors](extra_material/part1_1_vector.html)
@@ -45,5 +48,6 @@ title: "Intro to R for Researchers"
         * [Introductory Econometrics Examples](https://justinmshea.github.io/wooldridge/articles/Introductory-Econometrics-Examples.html) (data and examples from Wooldridge)
         * [STAT545](https://stat545.com/) by [Jenny Bryan](https://jennybryan.org/) : Data wrangling, exploration, and analysis with R
 
+---
 
 Back to [TDMDAL Computing Page](https://tdmdal.github.io/)
