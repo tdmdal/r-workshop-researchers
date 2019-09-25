@@ -15,7 +15,7 @@ title: "Intro to R for Researchers"
         
 ---       
         
-* Materials from an old workshop (containing more details)
+* Materials from a past workshop (containing more details)
     * Data structures
         * [Vectors](extra_material/part1_1_vector.html)
         * [Derived data structures](extra_material/part1_2_derived_ds.html)
